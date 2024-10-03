@@ -15,7 +15,8 @@ export default function Search(props) {
     props.artSearch(searchData.searchTerm);
   };
   return (
-    <div>
+    <div className="searchContainer">
+    <div className="searchForm">
       <form onSubmit={handleSubmit}>
         <input
           type="text"
@@ -25,6 +26,7 @@ export default function Search(props) {
         />
         <input type="submit" value="submit" />
       </form>
+    </div>
     </div>
   );
 }

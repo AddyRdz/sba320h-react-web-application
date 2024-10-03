@@ -4,6 +4,7 @@ import ArtDisplay from "./components/ArtDisplay";
 import Search from "./components/Search";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
+
 function App() {
   const [art, setArt] = useState({data: []});
 
@@ -26,7 +27,7 @@ function App() {
   }, []);
   return (
     <>
-      <h1>Art</h1>
+      <h1>The Gallery</h1>
       <Search artSearch={getArt}/>
       <ArtDisplay art={art}/>
     </>
