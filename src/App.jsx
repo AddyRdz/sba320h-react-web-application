@@ -9,7 +9,7 @@ function App() {
   const getArt = async (searchTerm) => {
     try {
       const response = await fetch(
-        `https://api.artic.edu/api/v1/artworks/search?q=${searchTerm}&fields=id,title,artist_display,image_id`
+        `https://api.artic.edu/api/v1/artworks/search?q=${searchTerm}&limit=30&fields=id,title,artist_display,image_id`
       );
       const data = await response.json();
       console.log(data);
