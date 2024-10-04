@@ -1,4 +1,4 @@
-# The Gallery
+# The Gallery <img src= "https://github.com/AddyRdz/sba320h-react-web-application/blob/main/public/images/the-gallery-high-resolution-logo-grayscale-transparent.png?raw=true" height='50'>
 
 
 ## SBA 320H - React Web Application
@@ -8,7 +8,7 @@
 ### Description
 * This is a React Web Application that utilizes the Art Institute of Chicago API which holds many artworks and miscellaneous information regarding the painters. Version 1 is capable of searching paintings through various search terms. Paintings are displayed and show information such as name of painting and artist. 
 * Future versions will implement a couple of things, infinite scrolling to allow the user to get immersed while viewing paintings. Another feature to be implemented is a proper navigation bar and placing the search bar at a more attractive location. Favorites/ Bookmarking could also be done in future versions.  
-* I attempted to use Chakar UI library but ultimately decided to try to implement that for future version. 
+* I attempted to use Chakar UI library but ultimately decided to try to implement that in a  future version. 
 
 ### Technical Specifications
 * HTML
@@ -20,10 +20,15 @@
 * Netlify
 
 ### Images
+<img src = 'https://github.com/AddyRdz/sba320h-react-web-application/blob/main/public/images/Screenshot%202024-10-03%20at%207.45.01%E2%80%AFPM.png?raw=true'>
+<img src = 'https://github.com/AddyRdz/sba320h-react-web-application/blob/main/public/images/Screenshot%202024-10-03%20at%207.45.24%E2%80%AFPM.png?raw=true'>
 
+### Wireframe
+<img src = 'https://github.com/AddyRdz/sba320h-react-web-application/blob/main/public/images/Wireframe.png?raw=true'>
 
 ### API
-`
+[Art Institute of Chicago API](https://api.artic.edu/docs/#quick-start)
+```
   "data": {
     "id": 129884,
     "api_model": "artworks",
@@ -57,5 +62,5 @@
         "height": 152,
         "diameter": null,
         "clarification": null
-      }`
+      }
 
